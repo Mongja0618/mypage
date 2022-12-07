@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>2023년 버킷리스트</title>
+	<title>2022년 올 해는 어땠나요?</title>
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Hahmlet:wght@400;500;600;700&display=swap');
 
@@ -62,11 +62,19 @@
 		}
 
 		#button_1 {
-			margin-right: 4px;
+			margin-right: 5px;
 		}
 
 		#button_2 {
-			margin-left: 3px;
+			margin-left: 10px;
+		}
+
+		#button_3 {
+			margin-left: 15px;
+		}
+
+		#button_4 {
+			margin-left: 15px;
 		}
 	</style>
 
@@ -75,27 +83,25 @@
 </head>
 
 <body class="bg center">
-	<h1 class="title">2023에는 꼭 성공할거야</h1>
+	<h1 class="title_1">2022년엔 무엇을 했나요?</h1>
 	<h3 class="msg">일은 내가 원하는 만큼만 하자</h3>
-
-	<!-- 버튼만드는 div 속성 및 style 참고 -->
 	<div id="btn_group"> 
-		<button id="button_1" type="button" onclick="location.href=('last_year.html')">2022년 이동</button>
+		<button id="button_1" type="button" onclick="location.href=('index.html')">2023년 이동</button>
 		<button id="button_2" type="button" onclick="location.href=('creat.html');">입력</button>
-		<button onclick="history.back()">이전</button>
+		<button id="button_3" type="button" onclick="window.open('https://github.com/')">github 이동</a>
+		<button id="button_4" onclick="history.back()">이전</button>
 		<button onclick="history.forward()">다음</button>
 	</div>
+	
+		<div class="row flex-row wrap">
+			<div class="bucket img1 center">자격증 하나 이상 취득하기</div>
+			<div class="bucket img2 center">몸무게 5KG 이상 감량하기</div>
+			<div class="bucket img2 center">적금 이외에 300만원 이상 모으기</div>
+			<div class="bucket img1 center">코딩에 관한 내용 배우기</div>
+			<div class="bucket img1 center">감자 산책 이틀에 한번은 꼭 나가기</div>
+			<div class="bucket img2 center">나의 능력을 키우기</div>
 
-
-	<div class="row flex-row wrap">
-		<div class="bucket img1 center">자격증 하나 이상 취득하기</div>
-		<div class="bucket img2 center">몸무게 5KG 이상 감량하기</div>
-		<div class="bucket img2 center">적금 이외에 300만원 이상 모으기</div>
-		<div class="bucket img1 center">코딩에 관한 내용 배우기</div>
-		<div class="bucket img1 center">감자 산책 이틀에 한번은 꼭 나가기</div>
-		<div class="bucket img2 center">나의 능력을 키우기</div>
-
-	</div>
+		</div>
 
 
 </body>
